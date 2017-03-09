@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="com.byemisys.cordova.FamocoLaser"
+        version="0.0.1">
+    <name>Famoco Laser Plugin</name>
+    <description>A plugin to use the Famoco laser (Motorola 4000)</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,plugin,famoco, laser, motorola, 4000</keywords>
+    <repo>https://github.com/Legenyes/FamocoLaser.git</repo>
+    <issue>https://github.com/Legenyes/FamocoLaser/issues</issue>
+ 
+    <js-module src="www/plugin.js" name="FamocoLaser">
+        <clobbers target="FamocoLaser" />
+    </js-module>
+	
+	<platform name="android">
+	  <config-file target="res/xml/config.xml" parent="/*">
+		<feature name="FamocoLaser" >
+		  <param name="android-package" value="com.byemisys.cordova.FamocoLaser"/>
+		</feature>
+	  </config-file>	 
+	  <source-file src="src/android/FamocoLaser.java" target-dir="src/com/byemisys/cordova"/>
+	</platform>
+</plugin>
