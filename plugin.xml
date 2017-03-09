@@ -7,8 +7,8 @@
     <description>A plugin to use the Famoco laser (Motorola 4000)</description>
     <license>Apache 2.0</license>
     <keywords>cordova,plugin,famoco, laser, motorola, 4000</keywords>
-    <repo>https://github.com/Legenyes/FamocoLaser.git</repo>
-    <issue>https://github.com/Legenyes/FamocoLaser/issues</issue>
+    <repo>https://github.com/Legenyes/cordova-plugin-famocolaser.git</repo>
+    <issue>https://github.com/Legenyes/cordova-plugin-famocolaser/issues</issue>
  
     <js-module src="www/plugin.js" name="FamocoLaser">
         <clobbers target="FamocoLaser" />
