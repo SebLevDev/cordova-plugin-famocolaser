@@ -1,0 +1,24 @@
+{
+  "name": "cordova-plugin-famocolaser",
+  "version": "1.0.0",
+  "description": "Cordova plugin to use the Famoco FX300 laser Motorola SE4500",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Legenyes/cordova-plugin-famocolaser.git"
+  },
+  "keywords": [
+    "famoco",
+    "laser",
+    "fx300"
+  ],
+  "author": "Lévêque Sébastien <sleveque@emisys.eué>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Legenyes/cordova-plugin-famocolaser/issues"
+  },
+  "homepage": "https://github.com/Legenyes/cordova-plugin-famocolaser#readme"
+}
