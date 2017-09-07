@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="com.byemisys.cordova.FamocoLaser"
-        version="1.0.0">
+        version="1.0.1">
     <name>Famoco Laser Plugin</name>
     <description>A plugin to use the Famoco laser (Motorola 4000)</description>
     <license>Apache 2.0</license>
