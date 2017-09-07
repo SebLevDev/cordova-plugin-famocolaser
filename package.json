@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-famocolaser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cordova plugin to use the Famoco FX300 laser Motorola SE4500",
   "main": "index.js",
   "scripts": {
